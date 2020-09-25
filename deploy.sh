@@ -9,12 +9,12 @@ npm run build
 # navigate into the build output directory
 cd docs/.vuepress/dist
 
-echo 'docs.n8n.io' > CNAME
+# echo 'docs.n8n.io' > CNAME
 
 git init
 git add -A
 git commit -m 'deploy'
 
-git push -f git@github.com:n8n-io/n8n-docs.git master:gh-pages
+git push -f git@github.com:harshil1712/n8n-docs.git master:gh-pages
 
 cd -

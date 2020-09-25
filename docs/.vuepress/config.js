@@ -76,7 +76,6 @@ module.exports = {
 			'seo',
 			{
 				description: $page => $page.frontmatter.description,
-				type: () => 'articles',
 				title: ($page, $site) => `${$page.title} | ${$site.title}`,
 				image: ($page, $site) =>
 					$page.frontmatter.image &&

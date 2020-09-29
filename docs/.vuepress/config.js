@@ -77,11 +77,7 @@ module.exports = {
 			{
 				description: $page => `n8n is an extendable workflow automation tool which enables you to connect anything to everything via its open, fair-code model. ${$page.frontmatter.description}`,
 				title: ($page, $site) => `${$page.title} | ${$site.title}`,
-				image: ($page, $site) =>
-					$page.frontmatter.image &&
-					(($site.themeConfig.domain &&
-						!$page.frontmatter.image.startsWith('http')) ||
-						'') + $page.frontmatter.image,
+				image: () => 'https://n8n.io/n8n-logo.png',
 				modifiedAt: $page => $page.lastUpdated && new Date($page.lastUpdated),
 				url: (_, $site, path) => ($site.themeConfig.domain || '') + path
 			}

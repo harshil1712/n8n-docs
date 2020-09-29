@@ -75,7 +75,7 @@ module.exports = {
 		[
 			'seo',
 			{
-				description: $page => $page.frontmatter.description,
+				description: $page => `n8n is an extendable workflow automation tool which enables you to connect anything to everything via its open, fair-code model. ${$page.frontmatter.description}`,
 				title: ($page, $site) => `${$page.title} | ${$site.title}`,
 				image: ($page, $site) =>
 					$page.frontmatter.image &&

@@ -1,7 +1,7 @@
 ---
 permalink: /nodes/n8n-nodes-base.googleSheets
 description: Learn how to use Google Sheets node in n8n
-image: ../../../nodes/nodes-library/GoogleSheets/workflow.png
+image: 'https://n8n.io/n8n-logo.png'
 ---
 
 # Google Sheets

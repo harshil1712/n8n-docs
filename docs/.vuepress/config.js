@@ -82,15 +82,6 @@ module.exports = {
 				url: (_, $site, path) => ($site.themeConfig.domain || '') + path
 			}
 		],
-		[
-			'vuepress-plugin-container',
-			{
-				type: 'faq',
-				before: info =>
-					`<details class='custom-block details'><summary class='question'><h4>${info}</h4></summary>`,
-				after: '</details>'
-			}
-		]
 	],
 	themeConfig: {
 		repo: 'n8n-io/n8n',

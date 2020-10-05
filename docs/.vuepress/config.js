@@ -75,7 +75,7 @@ module.exports = {
 		[
 			'seo',
 			{
-				description: $page => `${$page.frontmatter.description}, an extendable workflow automation tool which enables you to connect anything to everything via its open, fair-code model. `,
+				description: $page => $page.frontmatter.description ? `${$page.frontmatter.description}, an extendable workflow automation tool which enables you to connect anything to everything via its open, fair-code model.` : 'n8n is an extendable workflow automation tool which enables you to connect anything to everything via its open, fair-code model.',
 				title: ($page, $site) => `${$page.title} | ${$site.title}`,
 				image: () => 'https://n8n.io/n8n-logo.png',
 				modifiedAt: $page => $page.lastUpdated && new Date($page.lastUpdated),

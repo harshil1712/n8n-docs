@@ -6,6 +6,7 @@ description: Learn to configure credentials for the Clockify node in n8n
 # Clockify
 
 You can use these credentials to authenticate the following nodes with Clockify.
+- [Clockify](../../nodes-library/nodes/Clockify/README.md)
 - [Clockify Trigger](../../nodes-library/trigger-nodes/ClockifyTrigger/README.md)
 
 ## Prerequisites

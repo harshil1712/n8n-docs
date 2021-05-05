@@ -2,6 +2,44 @@
 
 🛠 = Version contains a breaking change. Check out the list of all the breaking changes [here](https://github.com/n8n-io/n8n/blob/master/packages/cli/BREAKING-CHANGES.md).
 
+## n8n@0.117.0 🛠
+For a comprehensive list of changes, check out the [commits](https://github.com/n8n-io/n8n/compare/n8n@0.116.1...n8n@0.117.0) for this version.<br />
+**Release date:** 2021-04-24
+
+::: warning ⚠️ Breaking change
+Please note that this version contains a breaking change. You can read more about it [here]().
+:::
+
+### New nodes ✨
+- [Mailcheck]()
+- [n8n Trigger]()
+- [Workflow Trigger]()
+
+### Enhanced nodes 🚀
+
+<Logo node="n8n-nodes-base.crateDb" title="CrateDB" text="Added the Mode option that allows you to execute queries as transactions 🛠"/>
+<Logo node="n8n-nodes-base.nextCloud" title="NextCloud" text="Added Delete, Get, Get All, and Update operation to the User resource"/>
+<Logo node="n8n-nodes-base.postgres" title="Postgres" text="Added the Mode option that allows you to execute queries as transactions 🛠"/>
+<Logo node="n8n-nodes-base.questDb" title="QuestDB" text="Added the Mode option that allows you to execute queries as transactions 🛠"/>
+
+🧰   **[Cron]():** Added the Mode option that allows you to execute queries as transactions
+
+### Functionality ⚙️
+- Something new got added to Editor UI maybe
+- Thinsg are faster now
+
+### Bug fixes 🐛
+
+<Logo node="n8n-nodes-base.googleSheets" title="Google Sheets" text="Fixed an issue with the Lookup operation for returning multiple empty rows"/>
+<Logo node="n8n-nodes-base.intercom" title="Intercom" text="Fixed an issue with the User operation in the Company resource"/>
+<Logo node="n8n-nodes-base.mautic" title="Mautic" text="Fixed an issue with sending the lastActive parameter"/>
+
+🧰 **[Cron]():** Added the Mode option that allows you to execute queries as transactions
+
+### Contributors 🙌
+
+[Name 1](), [Name 2](), [Name 3](), [Name 4](), [Name 5](), [Name 6](), [Name 7](), [Name 8]()
+
 ## n8n@0.118.0 🛠
 For a comprehensive list of changes, check out the [commits](https://github.com/n8n-io/n8n/compare/n8n@0.117.0...n8n@0.118.0) for this version.<br />
 **Release date:** 2021-05-02

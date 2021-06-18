@@ -22,22 +22,23 @@ export default {
 	},
 	methods: {
 		submitFeedback: async function(value) {
-			if(!this.submitted){
-				const path = this.$page.path;
-				fetch(`${this.url}?feedback=${value}&path=${path}`, {
-					method: 'GET',
-				})
-				.then(res => {
-					this.submitted = true;
-					return res.json()
-				})
-				.then(response => {
-					if(response.message) {
-						this.message = response.message;
-					}
-				})
-				.catch(err => console.log(err));
-			}
+		// 	if(!this.submitted){
+		// 		const path = this.$page.path;
+		// 		fetch(`${this.url}?feedback=${value}&path=${path}`, {
+		// 			method: 'GET',
+		// 		})
+		// 		.then(res => {
+		// 			this.submitted = true;
+		// 			return res.json()
+		// 		})
+		// 		.then(response => {
+		// 			if(response.message) {
+		// 				this.message = response.message;
+		// 			}
+		// 		})
+		// 		.catch(err => console.log(err));
+		// 	}
+		console.log('something')
 		}
 	}
 }
